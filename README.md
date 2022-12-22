@@ -2,7 +2,7 @@
 
 📋 DESCRIÇÃO SINTÉTICA DO PROJETO 📋
 
-Esse sistema deve permitir: registro de curso, registro de aulas de um curso, registro de alunos e simulação de curso para um aluno determinado, onde o aluno pode escolher uma
+Esse sistema deve permitir: registro de cursos, registro de aulas de um curso, registro de alunos e simulação de curso para um aluno determinado, onde o aluno pode escolher uma
 aula. Todas as janelas do cadastro devem possuir um cadastro e outra pesquisa. Deve-se registrar: registro de curso, registro de aulas de cada curso (depende do curso em caixa de combinação), registro de alunos e, finalmente, fazer uma análise do curso para um aluno
 determinado. Essa animação de visualização de um curso depende do curso (caixa de combinação), a caixa de combinação de aulas do curso selecionado e a caixa de combinação
 de aluno. A simulação de aula pode ser pesquisada por curso (ou parte do nome do curso) e por aluno (ou parte do nome do aluno), sendo, portanto, complexo. Essa consulta deve
