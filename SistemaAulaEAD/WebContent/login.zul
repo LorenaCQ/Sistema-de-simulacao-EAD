@@ -1,0 +1,30 @@
+<?page title="Login" contentType="text/html;charset=UTF-8"?>
+<zk>
+<div align="center">
+<window id="windowVisualizacao" title="Login" border="normal" width="35%" height="360px" closable="true" maximizable="true" sizable="true" apply="controle.UsuarioControle">
+
+<grid>
+		<columns>
+			<column label=""/>
+			<column label=""/>
+		</columns>
+		<rows>
+			<row>
+				<label value="Usuário" />
+				<textbox id="txtLogin" constraint="no empty: O campo Nome deve ser preenchido."/>
+			</row>
+			<row>
+				<label value="Senha"/>
+				<textbox type="password" id="txtSenha" constraint="no empty: O campo deve ser preenchido."/>
+			</row>
+		</rows>
+</grid>
+
+<div align="center">
+<button id="btnEntrar" label="Entrar"/>
+
+</div>
+					
+</window>
+</div>
+</zk>

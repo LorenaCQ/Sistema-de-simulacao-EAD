@@ -1,0 +1,45 @@
+<?page title="Cursos disponíveis" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window  title="Cursos disponíveis" border="normal" closable="true" width="600px" apply = "controle.CursoControle">
+			
+		<tabbox>
+			<tabs>
+				<tab id="tabPesq" label="Pesquisar"/>
+			</tabs>
+			<tabpanels>
+				<tabpanel>
+					<grid>
+						<columns>
+							<column label=""/>
+							<column label=""/>
+						</columns>
+						<rows>
+							<row>
+								<label value="Pesquisa"/>
+								<textbox id="txtPesquisa" cols="20"/>
+							</row>
+						</rows>
+					</grid>
+					<groupbox>
+						<listbox id="lsbPesquisa" rows="6">
+							<listhead>
+								<listheader label="Codigo" sort="auto" width="15%"/>
+								<listheader label="Nome" sort="auto" width="50%"/>
+							</listhead>
+							<listitem>
+								<listcell label=""/>
+								<listcell label=""/>
+							</listitem>
+						</listbox>
+					</groupbox>
+					<groupbox>
+						<div align="center">
+							<button id="btnLimparLista" label="Limpar"/>
+							<button id="btnAtualizarLista" label="Atualizar"/>							
+						</div>
+					</groupbox>
+				</tabpanel>
+			</tabpanels>
+		</tabbox>
+	</window>
+</zk>

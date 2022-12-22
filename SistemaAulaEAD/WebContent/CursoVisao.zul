@@ -1,0 +1,71 @@
+<?page title="cadastro de curso" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window id="windowCurso" title="Cadastro de curso" border="normal" closable="true" width="600px" apply="controle.CursoControle">
+			
+		<tabbox>
+			<tabs>
+				<tab id="tabCad" label="Manter Cadastro"/>
+				<tab id="tabPesq" label="Pesquisar"/>
+			</tabs>
+			<tabpanels>
+				<tabpanel>
+					<grid>
+						<columns>
+							<column label=""/>
+							<column label=""/>
+						</columns>
+						<rows>
+							<row>
+								<label value="Codigo"/>
+								<textbox id="txtCod" cols="10"/>
+							</row>
+							<row>
+								<label value="Nome"/>
+								<textbox id="txtNome" cols="20"/>
+							</row>
+						</rows>
+					</grid>
+					<groupbox>
+						<div align="center">
+							<button id="btnIncluir" label="Incluir"/>
+							<button id="btnAlterar" label="Alterar"/>
+							<button id="btnLimpar" label="Limpar"/>
+						</div>
+					</groupbox>
+				</tabpanel>
+				<tabpanel>
+					<grid>
+						<columns>
+							<column label=""/>
+							<column label=""/>
+						</columns>
+						<rows>
+							<row>
+								<label value="Pesquisa"/>
+								<textbox id="txtPesquisa" cols="20"/>
+							</row>
+						</rows>
+					</grid>
+					<groupbox>
+						<listbox id="lsbPesquisa" rows="6">
+							<listhead>
+								<listheader label="Codigo" sort="auto" width="15%"/>
+								<listheader label="Nome" sort="auto" width="50%"/>
+							</listhead>
+							<listitem>
+								<listcell label=""/>
+								<listcell label=""/>
+							</listitem>
+						</listbox>
+					</groupbox>
+					<groupbox>
+						<div align="center">
+							<button id="btnLimparLista" label="Limpar"/>
+							<button id="btnAtualizarLista" label="Atualizar"/>							
+						</div>
+					</groupbox>
+				</tabpanel>
+			</tabpanels>
+		</tabbox>
+	</window>
+</zk>

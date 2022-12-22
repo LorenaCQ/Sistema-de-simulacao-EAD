@@ -1,0 +1,24 @@
+<?page title="Cadastros" contentType="text/html;charset=UTF-8"?>
+<zk>
+		<div align="center">
+			<window id="wMenu" title="Sistema de Cadastros" border="normal" width="90%" height="550px" apply="controle.MenuControle">
+				<div align="left">
+					<menubar id="menubar" left="0px">
+						<menu id="menuPrincipal" label="Cadastros">
+							<menupopup>
+								<menuitem id="menuItemAlunos" label="Alunos" tooltiptext="Manutenção do cadastro de alunos"/>
+								<menuitem id="menuItemCurso" label="Cursos" tooltiptext="Manutenção do cadastro de cursos" visible="true"/>
+							</menupopup>
+						</menu>
+						<menu id="menuConsultas" label="Matrícula">
+							<menupopup>
+								<menuitem id="menuItemMatricula" label="Matricular Aluno" visible="true"/>
+							</menupopup>
+						</menu>
+					</menubar>
+				</div>
+				<div align="center">					
+				</div>
+			</window>
+		</div>
+</zk>
